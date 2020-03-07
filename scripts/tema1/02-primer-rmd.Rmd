@@ -1,8 +1,9 @@
 ---
-title: "Mi primer Markdown"
+title: "Mi primer Markdown de Joaquín"
 author: "Curso de Álgebra Lineal"
 date: "11/12/2018"
 output:
+  pdf_document: default
   html_document:
     df_print: paged
 ---
