@@ -1,0 +1,22 @@
+---
+title: "RyPhyton"
+author: "Joaquín Luque"
+date: "4/5/2020"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Reticulate
+
+```{r}
+library(reticulate)
+use_python("/users/Jluquef/opt/anaconda3/bin/python3")
+os <- import("os")
+os$listdir(".")
+
+```
+
+
